@@ -1,0 +1,63 @@
+body {
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',
+      sans-serif;
+    font-weight: 300;
+  }
+  
+  #container {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  .todo-card {
+    float: left;
+    width: 250px;
+    margin: auto;
+  }
+  
+  .todo-frame {
+    width: 230px;
+    margin: 10px;
+    background: #fecd2f;
+    color: #2d72fc;
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+  
+  
+  #new-todo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #new-todo p {
+    font-size: 2rem;
+    color: #2d72fc;
+  }
+  
+  #new-todo input[type='text'] {
+    font-size: 2rem;
+    border: 3px solid #fecd2f;
+    color: #2d72fc;
+  }
+  
+  .todo-button {
+    font-size: 2rem;
+    border: 3px solid #2d72fc;
+    background-color: #fecd2f;
+    color: #2d72fc;
+  }
+  
+  .todo-button:hover {
+    background-color: #2d72fc;
+    color: #fecd2f;
+  }
