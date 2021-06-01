@@ -1,8 +1,17 @@
 {
-    "todos": [
-        {
-            "content": "Buy Groceries",
-            "id": 10
-        }
-    ]
+  "todos": [
+    {
+      "content": "groceries ",
+      "id": 10
+    },
+    {
+      "content": "walk the dog",
+      "id": 12
+    },
+    {
+      "content": "Clean Kitchen",
+      "id": 13
+    }
+  ],
+  "users": []
 }
