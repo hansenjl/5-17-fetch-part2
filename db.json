@@ -1,8 +1,12 @@
 {
-    "todos": [
-        {
-            "content": "Buy Groceries",
-            "id": 10
-        }
-    ]
+  "todos": [
+    {
+      "content": "Buy Groceries",
+      "id": 10
+    },
+    {
+      "content": "Walk my dog",
+      "id": "11"
+    }
+  ]
 }
